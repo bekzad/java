@@ -1,0 +1,21 @@
+1.Bytecode is a compiled code that is compiled from the Java source code. It is important for internet programming because it can be run in any environment and it makes java programs portable and secure.
+
+2. Encapsulation, Polymorphism, Inheritance
+
+3. In main() method
+
+4. It is a place where we can save specific type of data and it can be changed
+
+5. D
+
+6. Single: //, Multi /* */
+
+7. if(condition) statement; for(initialization, condition, iteration) statement;
+
+8. With {}
+
+11. Syntax error
+
+12. It doesn't matter for the java interpreter as long as they are separated by semicolons, but it matters for readability of the code.
+
+

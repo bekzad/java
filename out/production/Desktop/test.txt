@@ -1,0 +1,15 @@
+1. Because it makes all of the different operating systems have the same values; Portability;
+2. Unicode. Others usually use 8 bits for characters, but java is international so it uses 16bits;
+3. No, it can have only true or false;
+4. System.out.println("One\nTwo\nThree");
+5. i is not declared, sum is being declared again and again without ever being initialized, even
+if it had initialised the answer wouldn't be the actual logical sum, but only the sum of 0 + 9;
+6. In prefix the value is incremented and then assigned to a variable, in postfix the value is assigned
+to a variable an then incremented;
+7. int a = 10, b = 0;
+    if ((b != 0) && (a / b == 0)) {//Do something};
+8. To an int;
+9. It is needed to cast the types that can't be done automatically for example double to an int 
+where we lose the precision of double; Converting between incompatible types or narrowing conversion;
+11. No it doesn't affect;
+12. Yes it defines a scope;

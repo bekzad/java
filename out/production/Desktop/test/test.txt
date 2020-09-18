@@ -1,0 +1,21 @@
+1. {
+    double var[] = new double(12);
+    double[] var = new double(12);
+}
+2. int var[] = {1, 2, 3, 4, 5}
+
+5. indexOf() returns the index of first match of a string. lastIndexOf() returns the last match;
+6. "I like java".length() and (char) ("I like java".charAt(5))
+8. No
+9. y = x < 0 ? 10 : 20;
+10. Logical operator because it is comparing two boolean variables
+11. Yes it is. Yes.
+12. It will shift a bit to the right no matter the sign of a value.
+14. No because at every point we are gonna need index and a value of a variable;
+15. Yes
+16. var;
+17. var done = false;
+18. Yes. No
+19. No because we don't use [] in the left side of type inference;
+20. No each of them has to be declared separately
+21. var mask = 1l;

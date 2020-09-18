@@ -1,0 +1,19 @@
+1. A class is a template from which an object can be made. While an object is an physical instance of that class.
+2. class {data, data}
+3. Each object have it's own copy of class' instance variables
+4. {
+    MyCounter counter;
+    counter = new MyCounter();
+}
+5. {
+    double myMeth (int a, int b) {
+    }
+}
+6. return value;
+7. Constructors has the same name as its class
+8. new allocates memory for an object dynamically and initializes it using object's constructor
+9. Garbage collection sporadically frees memory that is not used while running. 
+10. The this keyword is a reference(pointer) to an object on which a method is invoked. 
+It is automatically passed to a method.
+11. Yes
+12. void

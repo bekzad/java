@@ -1,0 +1,15 @@
+2. if (condition) statement; else if (condition) statement; else statement;
+3. y > 100
+4. for (int i = 1000; i >= 0; i -= 2) //
+5. No i is outside the for loop
+6. It breaks out of a loop before the loop finishes. 1. break; 2. break label;
+7. after while
+8. {
+0 1 
+2 3
+4 5 
+6 7
+8 9
+}
+11. A loop that can run forever or until the RAM finishes. for( ; ;); while(true);
+12. Yes
