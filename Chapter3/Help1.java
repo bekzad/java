@@ -1,5 +1,5 @@
 
-public class Help {
+public class Help1 {
     public static void main(String args[])
         throws java.io.IOException {
             char ignore, choice;

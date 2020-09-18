@@ -7,7 +7,7 @@ public class StringOperations {
 
         System.out.println("Length of str1 is: " + str1.length());
 
-        for (i = 0; i < str1.length(); i++) {
+        for (int i = 0; i < str1.length(); i++) {
             System.out.print(str1.charAt(i));
         }
         System.out.println();
@@ -16,7 +16,7 @@ public class StringOperations {
             System.out.println("Str1 equals str2");
         }
 
-        result = str1.compareTo(str3);
+        int result = str1.compareTo(str3);
         if (result == 0) {
             System.out.println("Str1 equals str3");
         } 

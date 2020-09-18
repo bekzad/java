@@ -1,8 +1,8 @@
 
-class ShowBits {
+class ShowBits1 {
     int numbits;
 
-    ShowBits(int n) {
+    ShowBits1(int n) {
         numbits = n;
     }
 
@@ -27,9 +27,9 @@ class ShowBits {
 
 public class ShowBitsDemo {
     public static void main(String args[]) {
-        ShowBits binary = new ShowBits(8);
-        ShowBits integer = new ShowBits(32);
-        ShowBits longInteger = new ShowBits(64);
+        ShowBits1 binary = new ShowBits1(8);
+        ShowBits1 integer = new ShowBits1(32);
+        ShowBits1 longInteger = new ShowBits1(64);
 
         binary.show(128);
         integer.show(87987);
