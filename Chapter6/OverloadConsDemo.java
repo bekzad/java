@@ -4,19 +4,19 @@ class MyClass1 {
     int x;
     MyClass1() {
         System.out.println("Inside MyClass()");
-        this.x = 0;
+        x = 0;
     }
     MyClass1(int i) {
         System.out.println("Inside MyClass(int)");
-        this.x = i;
+        x = i;
     }
     MyClass1(double d) {
         System.out.println("Inside MyClass(double)");
-        this.x = (int) d;
+        x = (int) d;
     }
     MyClass1(int i, int j) {
         System.out.println("Inside MyClass(int, int)");
-        this.x = i * j;
+        x = i * j;
     }
 }
 public class OverloadConsDemo {

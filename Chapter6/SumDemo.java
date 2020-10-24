@@ -12,7 +12,7 @@ class Summation {
 
     // Constructing one object from another
     Summation(Summation obj) {
-        this.sum = obj.sum;
+        sum = obj.sum;
     }
 }
 public class SumDemo {

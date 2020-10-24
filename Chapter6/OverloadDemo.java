@@ -8,7 +8,7 @@ class Overload {
         System.out.println("One parameter " + a);
     }
     int ovlDemo(int a, int b) {
-        System.out.println("Two parameters " + a + " " + b);
+        System.out.println("Two integer parameters " + a + " " + b);
         return a + b;
     }
     double ovlDemo(double a, double b) {

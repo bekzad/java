@@ -47,11 +47,17 @@ public class FSDemo {
         }
 
         System.out.println("\nFail with error reports:");
+        System.out.println("\nPutting values inside an array: ");
         for (int i = 0; i < (fs.length * 2); i++) {
+
             if (!fs.put(i, i*10)) {
                 System.out.println("Index " + i + " is out of bounds");
+            } else {
+                System.out.println("Putting inside: " + i + "th index ");
             }
         }
+
+        System.out.println("\nGetting values from an array: ");
         for (int i = 0; i < (fs.length * 2); i++) {
             x = fs.get(i);
             if (x != -1) {

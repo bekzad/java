@@ -32,7 +32,7 @@ public class ErrInfo {
         ErrorInfo error = new ErrorInfo();
         Err answer;
 
-        answer = error.getErrorInfo(2);
+        answer = error.getErrorInfo(3);
         System.out.println(answer.msg + " " + answer.severity);
 
         answer = error.getErrorInfo(99);

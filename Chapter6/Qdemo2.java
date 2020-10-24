@@ -5,8 +5,8 @@ class Queue2 {
     private int putloc, getloc;
 
     Queue2(int size) {
-        this.q = new char[size];
-        this.putloc = this.getloc = 0;
+        q = new char[size];
+        putloc = getloc = 0;
     }
     Queue2(Queue2 obj) {
         this.putloc = obj.putloc;
@@ -49,34 +49,34 @@ class QDemo2 {
         // Construct 10 element empty Queue
         Queue2 q1 = new Queue2(10);
 
-        // Construct queue from array
-        char name[] = {'T', 'o', 'm'};
-        Queue2 q2 = new Queue2(name);
-
         int i;
         // Put some character into q1
         for (i = 0; i < 10; i++) {
             q1.put((char) ('A' + i));
         }
 
+        // Construct queue from array
+        char name[] = {'T', 'o', 'm'};
+        Queue2 q2 = new Queue2(name);
+
         // Construct queue from another queue
         Queue2 q3 = new Queue2(q1);
 
         // Show the queues
         System.out.print("Contents of q1: ");
-        for (i = 0; i < 10; i++) {
+        for (i = 0; i < 11; i++) {
             System.out.print(q1.get());
         }
         System.out.println();
 
         System.out.print("Contents of q2: ");
-        for (i = 0; i < 3; i++) {
+        for (i = 0; i < 4; i++) {
             System.out.print(q2.get());
         }
         System.out.println();
 
         System.out.print("Contents of q3: ");
-        for (i = 0; i < 10; i++) {
+        for (i = 0; i < 11; i++) {
             System.out.print(q3.get());
         }
         System.out.println();

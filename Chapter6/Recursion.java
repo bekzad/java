@@ -1,18 +1,23 @@
-/* Demonstrates recursion */
+import java.util.Scanner;
 
 class Factorial {
-    private int result;
+
     int fact(int n) {
-        if (n == 1) return 1;
-        result = fact(n - 1) * n;
+        if (n == 1) {
+            return 1;
+        }
+        int result = n * fact(n - 1);
         return result;
     }
 }
-public class Recursion {
+
+class Recursion {
     public static void main(String args[]) {
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
+
         Factorial f = new Factorial();
-        System.out.println("Result of factorial 3 is: " + f.fact(3));
-        System.out.println("Result of factorial 5 is: " + f.fact(5));
-        System.out.println("Result of factorial 8 is: " + f.fact(8));
+
+        System.out.println(f.fact(number));
     }
 }
