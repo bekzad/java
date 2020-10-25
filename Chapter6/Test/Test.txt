@@ -1,0 +1,14 @@
+1. No count is a private instance variable it cannot be accessed through an object
+2. An access modifier must precede a member's declaration
+5. No, its not enough for the return types of overloaded methods be different, arguments
+must me different too
+7. You declare that variable as static
+8. If you need to initialize some variables or do some things before creating an object
+for example creating an internet connection before starting to do somethings in main
+9. Inner class is a class inside another class which has the scope only inside the outer class
+and doesn't exists outside of it. Inner class can access variables from outside class but outside
+class cannot access variables of inner class.
+10. Private
+11. Signature
+12. Call-by-Value
+14. Yes the same way as other methods
