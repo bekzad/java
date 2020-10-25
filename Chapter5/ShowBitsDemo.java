@@ -7,9 +7,10 @@ class ShowBits1 {
     }
 
     void show(long val) {
-        var mask = 1l;
+        long mask = 1l;
 
         mask <<= numbits - 1;
+//        System.out.println(mask);
         
         int spacer = 0;
         for (; mask != 0; mask >>>= 1) {
@@ -27,13 +28,12 @@ class ShowBits1 {
 
 public class ShowBitsDemo {
     public static void main(String args[]) {
-        ShowBits1 binary = new ShowBits1(8);
+        ShowBits1 byteval = new ShowBits1(8);
         ShowBits1 integer = new ShowBits1(32);
         ShowBits1 longInteger = new ShowBits1(64);
 
-        binary.show(128);
+        byteval.show(128);
         integer.show(87987);
         longInteger.show(4758656321l);
-        binary.show(112457);
     }
 }
