@@ -1,0 +1,38 @@
+1. Superclass does not have access to the members of a subclass,
+but it can refer to the subclass object. Subclass has access to the members of the superclass
+if they are not private
+
+3. Use private modifier
+
+4. First version of super accesses methods and variables
+of superclass from a subclass
+The second version of super initializes the constructor of a superclass
+
+5. Alpha, Beta then Gamma
+
+6. It is important because of dynamic method dispatch. Meaning that java will choose
+which method to use looking at the object type at run time rather than just the type of
+the superclass
+
+7. An abstract class is the one that doesn't create concrete objects
+but subclasses inherit from it and create objects from it. It doesn't have a concrete meaning
+only an abstraction
+
+8. To prevent a method from being overridden and the class from being inherited we use
+final keyword
+
+9. To support polymorphism one interface multiple methods java uses inheritance - it inherits
+from an abstract class and makes changes of the methods as much as it wants by use of
+overriding.
+
+10. Object class
+
+11. True
+
+12. final
+
+13. The type is going to be A because the return type is A
+Even though it references an object of type B, reference variable that is being returned is A
+In this case myRef cannot access variable that are only declared in B
+
+14. It will be cast to reference type of B, and myRefs type will be B
