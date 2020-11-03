@@ -1,6 +1,7 @@
 package bytwos;
+import interfaces.Series;
 
-public class ByTwos implements series.Series {
+class ByTwos implements Series {
     private int start;
     private int val;
     private int prev;

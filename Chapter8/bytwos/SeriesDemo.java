@@ -19,5 +19,12 @@ public class SeriesDemo {
         for (int i = 0; i < 5; i++) {
             System.out.println("Next value is: " + ob.getNext());
         }
+
+        System.out.println("\nUsage of getNextArray");
+
+        int[] nextArray = ob.getNextArray(5);
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Next value is: " + nextArray[i]);
+        }
     }
 }
