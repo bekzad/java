@@ -1,0 +1,13 @@
+1. Throwable
+2. If the class that we are going to use throws an exception we need to put that inside try and catch the exception
+3. vals[18] = 10; needs to be inside try block
+4. Then JVM catches the exception and stops the execution of our program, prints the Stack track
+5. Unreachable code in catch (B exc)
+6. Yes
+7. True. It eis executed when a try block ends
+8. All types except Runtime Exception and Error
+9. In order to throw an exception it must first inherit from a Throwable class, only them can be thrown
+11. First by an error in JVM, second by an error in your program, by explicitly throwing via throw statement
+12. Exception, Error
+13. It is a feature which allows us to catch multiple exceptions in one catch clause
+14. No, it can't catch them. They are interior errors by JVM.
