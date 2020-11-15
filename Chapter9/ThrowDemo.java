@@ -1,10 +1,33 @@
-public class ThrowDemo {
-    public static void main(String args[]) {
+class ThrowDemo {
+
+    static void demoproc() {
+
         try {
-            throw new ArithmeticException();
+
+            throw new NullPointerException("demo");
+
+        } catch(NullPointerException e) {
+
+            System.out.print("Caught inside demoproc.");
+
+            throw e;
+
         }
-        catch (ArithmeticException e) {
-            System.out.println("Arithmetic exception caught");
-        }
+
     }
+
+    public static void main(String args[]) {
+
+        try {
+
+            demoproc();
+
+        } catch(NullPointerException e) {
+
+            System.out.print(" Recaught: " + e);
+
+        }
+
+    }
+
 }

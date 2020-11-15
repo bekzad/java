@@ -11,7 +11,7 @@ public class CustomExceptDemo {
                 System.out.println(numer[i] + "/" + denom[i] + " = " + numer[i]/denom[i]);
             }
             catch (ArithmeticException e) {
-                System.out.println("Can't divide by zero");
+                System.out.println(e);
             }
             catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("Array out of bounds");
