@@ -1,0 +1,74 @@
+                                ByteStreams
+
+They are mainly used in Java to input and output primitive data streams
+it's goof for objects and small programs, not very useful
+
+InputStream and OutputStream - are abstract classes
+
+System.in - InputStream reference variable (Object -> InputStream)
+System.out - PrintStream reference variable (OutputStream -> FilterOutputStream -> PrintStream)
+
+InputStream methods:
+1. read() 2. close() 3. mark() 4. skip() 5. reset() 6. transferTo()
+
+OutputStream methods:
+1. close() 2. flush() 3. write()
+
+File IO
+InputStream -> FileInputStream - Class to read bytes from a file
+OutputStream -> FileOutputStream - Class to write bytes to a file
+
+Constructors
+FileInputStream("directory/file") - Directory where you read from
+FileOutputStream("directory/file") - Directory where you write to
+
+Data IO
+InputStream -> FilterInputStream -> DataInputStream  - Class to read data such as ints and doubles
+OutputStream -> FilterOutputStream -> DataOutputStream - Class to write data
+
+Constructors:
+DataInputStream(InputStream inputStream) - inputStream can be an instance of any InputStream such as FileInputStream
+DataOutputStream(OutputStream outputStream) - outputStream can be an instance of OutputStream such as PrintStream
+
+Methods:
+writeBoolean() - readBoolean()
+writeByte() - readByte()
+writeChar() - readChar()
+writeDouble() - readDouble()
+writeFloat() - readFloat()
+writeInt() - readInt()
+writeLong() - readLong()
+writeShort() - readShort()
+
+RandomAccessFile - is used to access a file in a random order
+Object -> RandomAccessFile (implements java.io.DataInput and java.io.DataOutput)
+These interfaces define the basic IO in Java
+
+Constructors:
+RandomAccessFile(String filename, String access) throws FileNotFoundException
+access:
+"r" - A file can be read, but not written
+"w" - A file can be written, but not read
+"rw" - A file is open in read and write mode
+
+Methods:
+void seek(long newPos) - newPos - is the new position of the file pointer in bytes from the beginning of the file
+read() - read one byte at a time because files are usually written in ASCII
+write()
+Read and write all the primitive types
+readChar() - reads two bytes at a time because chars in Java are UTF-16
+readInt()
+
+
+
+
+
+
+
+
+
+
+
+
+
+

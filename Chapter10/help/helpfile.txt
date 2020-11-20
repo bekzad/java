@@ -1,0 +1,15 @@
+#if
+if (condition) statement;
+else statement;
+
+#for
+for (init; condition; iteration) statement;
+
+#while
+while(condition) statement;
+
+#break
+break; or break label;
+
+#condtinue
+continue; or continue label;

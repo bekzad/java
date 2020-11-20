@@ -1,0 +1,77 @@
+                                      Character Streams
+They are used to handle character based streams. If your program sends data through the
+internet it is a good idea to use those.
+
+Reader and Writer are abstract classes to read and write character based streams
+
+Reader methods:
+1. close() 2. mark() 3. read() 4. ready 5. reset() 6. skip() 7. transferTo()
+
+Writer methods:
+1. append() 2. close() 3. flush() 4. write()
+
+BufferedReader
+Reader -> BufferedReader
+Reader -> InputStreamReader
+The best class for reading console input for internationalized code
+
+Constructor:
+BufferedReader(Reader reader) -
+If you want to get from console then you have to wrap System.in inside a Reader:
+BufferedReader(InputStreamReader inputStreamReader(System.in))
+
+PrintWriter
+Writer -> PrintWriter
+Preferred method to output something into the console in real life programs
+is by PrintWriter
+
+Constructor:
+PrintWriter(OutputStream outputStream, boolean flushOn)
+outputStream can be System.out if we are printing on a console
+flushOn - controls whether or not Java flushes the outputStream automatically
+every time a method called such as println()
+
+FileReader - FileWriter
+If you want to store Unicode text, the character streams are used
+Reader -> InputStreamReader -> FileReader
+Writer -> OutputStreamWriter -> FileWriter
+
+Constructor:
+FileWriter(String fileName)
+FileWriter(String fileName, boolean append)
+If append is true then output is appended to the file
+
+TypeWrappers:
+They encapsulate primitive types into objects
+They are: Double, Float, Long, Integer, Short, Byte, Character, and Boolean
+
+They can also convert numeric string into it's corresponding binary value
+Methods:
+int parseInt(String str) throws NumberFormatException
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
