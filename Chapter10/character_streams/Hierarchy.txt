@@ -50,6 +50,17 @@ Methods:
 int parseInt(String str) throws NumberFormatException
 
 
+Scanner:
+Easier way to get the data values from console instead of parsing them manually
+Scanner(InputStream inputStream); InputStream is usually System.in.
+
+Methods:
+boolean hasNextData() - True if data is available in the next one
+
+data nextData() throws InputMismatchException. Returns data.
+
+
+
 
 
 

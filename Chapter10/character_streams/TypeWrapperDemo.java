@@ -1,4 +1,6 @@
-package character_streams;//This program averages the list of numbers provided by user
+//This program averages the list of numbers provided by user
+
+package character_streams;
 
 import java.io.BufferedReader;
 import java.io.IOException;
