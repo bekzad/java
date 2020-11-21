@@ -1,5 +1,6 @@
-package character_streams;/*
-
+package character_streams;
+/*
+    Good for Line Based IO
  */
 
 import java.io.BufferedReader;

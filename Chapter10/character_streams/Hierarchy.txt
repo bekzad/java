@@ -1,6 +1,12 @@
                                       Character Streams
 They are used to handle character based streams. If your program sends data through the
-internet it is a good idea to use those.
+internet it is a good idea to use those. They are good for line based IO,
+use PrintWriter to automatically write a line terminator.
+
+Line Based IO
+You use BufferedReader(FileReader) for readLine
+And use PrintWriter(FileWriter) for println instead of write
+Line based IO can be done only in character based IO
 
 Reader and Writer are abstract classes to read and write character based streams
 

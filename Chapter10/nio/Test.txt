@@ -1,0 +1,27 @@
+1. The byte streams are the original streams defined by Java.
+   They are especially useful for binary I/O, and they
+   support random access files. The character streams are optimized for Unicode.
+
+2. Because it has started in the beginning with byte streams. And Java needed to support the legacy code.
+
+3. FileInputStream fis = new FileInputStream(String name);
+
+4. FileReader fr = new FileReader(String name);
+
+5. RandomAccessFile rand = new RandomAccessFile(String name, String mode);
+
+6. By using Type Wrapper Double.parseDouble("123.23");
+
+9. InputStream
+
+10. -1
+
+11. DataInputStream
+
+12. Character based I/O
+
+13. Automatic resource management
+
+14. True
+
+15. Yes
