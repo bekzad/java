@@ -1,0 +1,12 @@
+1. Enumeration constants' type is the type of the enumeration in which the constants are declared
+2. Enum
+5. Boxing means wrapping a primitive value into an object, unboxing unwrapping.
+With autoboxing java does this by itself whenever it needs to be done instead of doing it manually
+6. Double val = 123.0
+7. It is still an import, however with it you can use static methods without specifying their class
+8. static imports parseInt
+9. It is better to use in special case situations. If we bring al static members into view there is more
+chance that there will be name collisions.
+10. Interface
+11. It is when annotation does not take arguments
+12. No it can be applied to classes and variables

@@ -1,0 +1,13 @@
+1. Because it can utilize cpu time better, such as doing some other tasks while the thread is waiting for another thing
+to complete
+2. Thread class and Runnable interface
+3. If you want to use other default methods inside your Thread class in addition to run method
+4. MyThrd.join()
+5. MyThrd.setPriority(Thread.NORM_PRIORITY + 3)
+6. If synchronized keyword is added to the object then that object can be used by only one thread at a time
+Other threads will wait until the object is used by that thread
+7. Interthread communication
+9. Because they are deprecated after java 2 for reasons that can bring the java programs to deadlock
+10. Thread.getName()
+11. A boolean value whether a thread is running ro not
+12.
