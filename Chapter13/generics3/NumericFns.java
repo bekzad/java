@@ -21,7 +21,7 @@ public class NumericFns<T extends Number> {
 //        return Math.abs(num.doubleValue()) == Math.abs(ob.num.doubleValue());
 //    }
 
-    // We must use a wildcard argument to compare two different NumericFns type objects
+    // We must use a wildcard argument to compare two different NumericFns type parameter objects
     boolean absEqual(NumericFns<?> ob) {
         return Math.abs(num.doubleValue()) == Math.abs(ob.num.doubleValue());
     }

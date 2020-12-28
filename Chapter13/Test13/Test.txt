@@ -1,0 +1,12 @@
+1. D
+2. No
+6. It is a wildcard argument. It can be put in places where there word anything can be used. For example in methods
+parameters ? extends ClassA can be used to make sure that upperbound of the parameters method be ClassA.
+It matches any valid type.
+
+7. Yes it can have upper or lower bound.
+11. No
+13. It is a diamond operator to make our code more succinct. It can infer the type from the reference variables type.
+14.
+    1) MyClass<Double, String> obj = new MyClass<>(1.1, "Hi");
+    2) var obj = new MyClass<Double, String>(1.1, "Hi");
