@@ -1,0 +1,51 @@
+1. A lambda operator ->
+2. It is an interface which has only one abstract method
+3. A lambda expression provides the implementation to an abstract
+method defined in a functional interface
+
+4.
+1st) expression lambda. It specifies a single expression which is returned by the lambda.
+2nd) block lambda. It contains a block of code. Its value is returned by a return statement.
+
+5. (n) -> n >= 10 && n <= 20;
+6.
+public interface MyTest {
+    boolean testing(int n);
+}
+
+9.
+// A lambda expression that removes all spaces from a string
+outStr = changeStr((str) -> str.replace(" ", ""), inStr);
+System.out.println(outStr);
+
+10. Yes. A local variable must be effectively final.
+
+11. True.
+
+12. It is a way to refer to a method without executing it
+
+13. Functional interface
+
+14. MyClass::myStaticMethod
+
+15. mcObj::myInstMethod()
+
+16.
+// In MyIntNum
+    boolean hasCommonFactor(int n) {
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0 && v % i == 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+// In MethodRefObject
+    ip = myNum::hasCommonFactor;
+    if (ip.test(6)) {
+        System.out.println("18 and 6 have common factors");
+    }
+
+17. ClassName::new
+
+18. java.util.function
