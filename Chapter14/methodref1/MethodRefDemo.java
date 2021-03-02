@@ -1,6 +1,10 @@
 package methodref1;
 
+// Static method references
+
 public class MethodRefDemo {
+
+    // This method takes an argument of a functional interface
     static boolean numTest(IntPredicate someMethod, int n) {
         return someMethod.test(n);
     }

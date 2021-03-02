@@ -1,6 +1,6 @@
 package lambda6;
 
-// We can modify the instance variables from the inside of lambda function
+// We can't modify the instance variables from the inside of lambda function
 public class VarCapture {
     public static void main(String[] args) {
         // This variable needs to be effectively final
